@@ -111,7 +111,9 @@ ggplot(average_steps_per_daytype_interval, aes(x = interval, y = mean_steps, col
        y = "Average Number of Steps",
        color = "Day Type")
 
-
+install.packages("knitr")
+library(knitr)
+knit2html("PA1_template.Rmd")
 
 
 
